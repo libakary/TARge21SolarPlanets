@@ -57,4 +57,30 @@
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
     </Style>
+
+    <Style TargetType="Label" x:Key="MenuLabelStyle" BasedOn="{StaticResource BaseRegularLabelStyle}">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="#CCCCCC" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="PageSubHeaderStyle" BasedOn="{StaticResource BaseMediumLabelStyle}">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="FeaturedPLanetHeaderStyle" BasedOn="{StaticResource BaseMediumLabelStyle}">
+        <Setter Property="FontSize" Value="22"/>
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="FeaturedPLanetHeaderSubtitleStyle" BasedOn="{StaticResource BaseRegularLabelStyle}">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="AllPlanetHeaderStyle" BasedOn="{StaticResource BaseMediumLabelStyle}">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="TextColor" Value="{StaticResource LightTextColor}" />
+    </Style>
+
 </ResourceDictionary>
