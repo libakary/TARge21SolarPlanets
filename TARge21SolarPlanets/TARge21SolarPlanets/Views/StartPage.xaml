@@ -3,6 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TARge21SolarPlanets.Views.StartPage"
              Title="Maui Planets">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#666" Offset="0.0" />
+            <GradientStop Color="#000" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    
     <Grid>
         <!--Planets Image-->
         <Image
@@ -40,11 +48,11 @@
             Opacity="0"
             Source="mars.png" 
             VerticalOptions="Start"
-            HorizontalOptions="Center"
-            TranslationX="-48"
-            TranslationY="148"
-            WidthRequest="96"
-            HeightRequest="96"/>
+            HorizontalOptions="Start"
+            TranslationX="-100"
+            TranslationY="96"
+            WidthRequest="140"
+            HeightRequest="140"/>
         <Image
             x:Name="imgJupiter"
             Opacity="0"
@@ -114,7 +122,7 @@
                     HorizontalTextAlignment="Center"
                     LineBreakMode="WordWrap"
                     Style="{StaticResource IntroPageTextStyle}"
-                    Text="Want to know and explain all things about the planets in our Solar System" />
+                    Text="Want to know and explain all things about the planets in our Solar System?" />
 
                 <Button
                     Style="{StaticResource ButtonStyle}"

@@ -36,12 +36,45 @@
                     Style="{StaticResource PageHeaderSubtitleStyle}"
                     HorizontalOptions="End" />
 
+                <Label
+                    Text="Option 2 (with icon)"
+                    Style="{StaticResource PageHeaderSubtitleStyle}"
+                    HorizontalOptions="End" />
+
+                <Label
+                    Text="Option 3 (with icon)"
+                    Style="{StaticResource PageHeaderSubtitleStyle}"
+                    HorizontalOptions="End" />
+
+                <Label
+                    Text="Option 4 (with icon)"
+                    Style="{StaticResource PageHeaderSubtitleStyle}"
+                    HorizontalOptions="End" />
+
+                <Label
+                    Text="Option 5 (with icon)"
+                    Style="{StaticResource PageHeaderSubtitleStyle}"
+                    HorizontalOptions="End" />
+
+                <Label
+                    Text="Option 6 (with icon)"
+                    Style="{StaticResource PageHeaderSubtitleStyle}"
+                    HorizontalOptions="End" />
+
 
             </VerticalStackLayout>
             
         </Grid>
+        
+        <!-- Main Content -->
 
-        <Grid>
+        <Grid
+            x:Name="MainContentGrid"
+            Padding="24,52,24,0"
+            BackgroundColor="{StaticResource PageBackgroundColor}"
+            ColumnDefinitions="*, Auto"
+            RowDefinitions="Auto,*">
+            
             <!--Header text-->
             <VerticalStackLayout
                 Spacing="4"
@@ -56,8 +89,11 @@
                 <Label
                     Style="{StaticResource PageHeaderSubtitleStyle}"
                     Text="The solar system" />
+                
             </VerticalStackLayout>
 
+            <!--Api pilt-->
+            
             <Border
                 WidthRequest="56"
                 HeightRequest="56"
@@ -108,7 +144,7 @@
                     <!--Search box-->
                     <Border
                         Padding="12,4"
-                        BackgroundColor="#33CCCC"
+                        BackgroundColor="#33CCCCCC"
                         Stroke="{StaticResource BorderColor}"
                         HorizontalOptions="Fill"
                         Margin="0,0,24,0"
@@ -120,7 +156,7 @@
                         <Grid
                             HorizontalOptions="Fill"
                             VerticalOptions="Center"
-                            ColumnDefinitions="Auto, *"
+                            ColumnDefinitions="Auto,*"
                             ColumnSpacing="16">
 
                             <Image
@@ -153,7 +189,7 @@
                     
                     <CollectionView
                         x:Name="lstPopularPlanets"
-                        HeightRequest="280"
+                        HeightRequest="180"
                         SelectionMode="Single"
                         SelectionChanged="Planets_SelectionChanged">
 
@@ -178,7 +214,7 @@
                                     </Border.StrokeShape>
 
                                     <Grid
-                                        RowDefinitions="*,Auto,Auto"
+                                        RowDefinitions="*, Auto, Auto"
                                         RowSpacing="4">
 
                                         <Image
