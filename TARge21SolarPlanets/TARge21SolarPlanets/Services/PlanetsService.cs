@@ -145,6 +145,88 @@ namespace TARge21SolarPlanets.Services
 
 			},
 
+			//kääbusplaneedid
+
+			new()
+			{
+				Name= " Pluto",
+				Subtitle= " The reclassified",
+				HeroImage = "pluto.png",
+				Description = "Pluto is a dwarf planet in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune. There may be millions of these icy objects, collectively referred to as Kuiper Belt objects (KBOs) or trans-Neptunian objects (TNOs), in this distant region of our solar system.",
+				AccentColorStart = Color.FromArgb("#F5D57A"),
+				AccentColorEnd = Color.FromArgb("#7F4B2C"),
+				Images = new()
+				{
+					"https://cdn.images.express.co.uk/img/dynamic/galleries/x701/183998.jpg",
+					"https://s-i.huffpost.com/gen/3208734/images/o-PLUTO-facebook.jpg"
+				},
+
+			},
+
+			new()
+			{
+				Name= " Ceres",
+				Subtitle= " The cereal killer",
+				HeroImage = "ceres.png",
+				Description = "Dwarf planet Ceres is the largest object in the asteroid belt between Mars and Jupiter, and it's the only dwarf planet located in the inner solar system. It was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801. And when NASA's Dawn arrived in 2015, Ceres became the first dwarf planet to receive a visit from a spacecraft.\r\n\r\nCalled an asteroid for many years, Ceres is so much bigger and so different from its rocky neighbors that scientists classified it as a dwarf planet in 2006. Even though Ceres comprises 25% of the asteroid belt's total mass, Pluto is still 14 times more massive.",
+				AccentColorStart = Color.FromArgb("#908179"),
+				AccentColorEnd = Color.FromArgb("#908580"),
+				Images = new()
+				{
+					"https://www.universetoday.com/wp-content/uploads/2016/07/PIA20182.jpg",
+					"https://1734811051.rsc.cdn77.org/data/images/full/369924/ceres-nasa-findings.jpg"
+				},
+
+			},
+
+			new()
+			{
+				Name= " Haumea",
+				Subtitle= " The egg!",
+				HeroImage = "haumea.png",
+				Description = "Originally designated 2003 EL61 (and nicknamed Santa by one discovery team), Haumea is located in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune. The other known dwarf planets in the Kuiper Belt are Pluto, Eris, and Makemake (dwarf planet Ceres is located in the main asteroid belt between Mars and Jupiter).\r\n\r\nHaumea is roughly the same size as Pluto. It is one of the fastest rotating large objects in our solar system. The fast spin distorts Haumea's shape, making this dwarf planet look like a football.",
+				AccentColorStart = Color.FromArgb("#4A8DC6"),
+				AccentColorEnd = Color.FromArgb("#2D638F"),
+				Images = new()
+				{
+					"https://solarstory.net/img/articles/big/artists-impression-of-the-dwarf-planet-haumea.jpg",
+					"https://daily.jstor.org/wp-content/uploads/2016/10/Haumea_1050x700.jpg"
+				},
+
+			},
+
+			new()
+			{
+				Name= " Makemake",
+				Subtitle= " The creation",
+				HeroImage = "makemake.png",
+				Description = "Along with fellow dwarf planets Pluto, Eris, and Haumea, Makemake is located in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune. Slightly smaller than Pluto, Makemake is the second-brightest object in the Kuiper Belt as seen from Earth (while Pluto is the brightest). It takes about 305 Earth years for this dwarf planet to make one trip around the Sun.\r\n\r\nMakemake holds an important place in the history of solar system studies because it – along with Eris – was one of the objects whose discovery prompted the International Astronomical Union to reconsider the definition of a planet and to create the new group of dwarf planets.",
+				AccentColorStart = Color.FromArgb("#E0A87A"),
+				AccentColorEnd = Color.FromArgb("#AA8464"),
+				Images = new()
+				{
+					"https://www.renderhub.com/3dstudio/dwarf-planet-makemake/dwarf-planet-makemake-01.jpg",
+					"https://scitechdaily.com/images/artist%E2%80%99s-impression-shows-the-surface-of-the-distant-dwarf-planet-Makemake.jpg"
+				},
+
+			},
+
+			new()
+			{
+				Name= " Eris",
+				Subtitle= " The discourser",
+				HeroImage = "eris.png",
+				Description = "Eris is one of the largest known dwarf planets in our solar system. It's about the same size as Pluto but is three times farther from the Sun.\r\n\r\nAt first, Eris appeared to be larger than Pluto. This triggered a debate in the scientific community that led to the International Astronomical Union's decision in 2006 to clarify the definition of a planet. Pluto, Eris, and other similar objects are now classified as dwarf planets.",
+				AccentColorStart = Color.FromArgb("#FCDE83"),
+				AccentColorEnd = Color.FromArgb("#318377"),
+				Images = new()
+				{
+					"https://solarstory.net/img/articles/big/artists-impression-of-the-dwarf-planet-eris.jpg",
+					"https://ak8.picdn.net/shutterstock/videos/1016925148/thumb/1.jpg"
+				},
+
+			},
+
 		};
 
 		public static List<Planet> GetFeaturedPlanets()
